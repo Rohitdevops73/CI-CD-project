@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fullstack
-        image: rohitkube/fullstack:replaceImageTag
+        image: rohitkube/fullstack:10
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
